@@ -4,11 +4,6 @@ function pesquisar() {
     let section = document.getElementById("resultados-pesquisa");
 
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
-    
-    if(!campoPesquisa){
-      section.innerHTML = "<p>Nada foi encontrado.</p>"
-      return
-    }
 
     campoPesquisa = campoPesquisa
 
